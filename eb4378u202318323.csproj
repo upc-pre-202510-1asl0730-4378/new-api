@@ -26,4 +26,24 @@
         <PackageReference Include="Cortex.Mediator" Version="1.6.1"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="BcTemplate\Application\ACL\" />
+      <Folder Include="BcTemplate\Application\Internal\CommandServices\" />
+      <Folder Include="BcTemplate\Application\Internal\EventHandlers\" />
+      <Folder Include="BcTemplate\Application\Internal\QueryServices\" />
+      <Folder Include="BcTemplate\Domain\Model\Aggregates\" />
+      <Folder Include="BcTemplate\Domain\Model\Commands\" />
+      <Folder Include="BcTemplate\Domain\Model\Entities\" />
+      <Folder Include="BcTemplate\Domain\Model\Events\" />
+      <Folder Include="BcTemplate\Domain\Model\Queries\" />
+      <Folder Include="BcTemplate\Domain\Model\ValueObjects\" />
+      <Folder Include="BcTemplate\Domain\Repositories\" />
+      <Folder Include="BcTemplate\Domain\Services\" />
+      <Folder Include="BcTemplate\Infrastructure\Persistence\EFC\Configuration\Extensions\" />
+      <Folder Include="BcTemplate\Infrastructure\Persistence\EFC\Repositories\" />
+      <Folder Include="BcTemplate\Interfaces\ACL\" />
+      <Folder Include="BcTemplate\Interfaces\REST\Resources\" />
+      <Folder Include="BcTemplate\Interfaces\REST\Transform\" />
+    </ItemGroup>
+
 </Project>
